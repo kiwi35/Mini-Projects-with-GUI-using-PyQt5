@@ -5,5 +5,6 @@ Currently, there are two projects (which are quite similar), and I have a lot of
 
 Contents (with GUI):
 
-1)Stop Watch
-2)Digital Clock
+1) Stop Watch
+2) Digital Clock
+
