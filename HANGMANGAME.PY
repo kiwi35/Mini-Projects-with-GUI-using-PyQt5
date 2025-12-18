@@ -55,6 +55,7 @@ def comparee(l,cho):
 
     if set(cho).issubset(set(letter)):
         print(f"Congratulations! You guessed the word: {cho}")
+        lives = 0
         is_running = False
 
 
@@ -70,12 +71,12 @@ def playing():
     is_running = True
     while is_running == True and lives <= 6:
         inputt()
-    if is_running == False:
+    if is_running == False and lives >= 6:
         print(f"Game Over. The word was: {cho}")
 
 
 
-if __name__ == '__main__':
+if _name_ == '_main_':
     playing()
 
 
